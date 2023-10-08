@@ -1,0 +1,116 @@
+
+.header{
+    background-color: #395e78;
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+    height: 100px;
+    padding: 15px 100px 15px 100px;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+h1{
+    font-size:60px;
+}
+.container-fluid{
+    color: white;
+    display: flexbox;
+    padding: 80px 30px 80px 30px;
+    background-color: #395e78;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 620px;
+    padding-top: 150px;
+}
+.container-fluid h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.container-fluid button{
+    margin-top: 15px;
+    width: 280px;
+    height: 60px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+}
+.header h4{
+    padding-top: 25px;
+}
+.work,.Services,.join{
+    height: 350px;
+    display: flexbox;
+    padding: 130px 400px 80px 400px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(60, 60, 60);
+}
+.work p , .Services p, .join p{
+    line-height: 2;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+hr{
+    width: 150px;
+    height: 1.5px;
+    background-color:#2196F3;
+    text-align: center;
+    
+}
+.img1{
+    display: flex;
+    justify-content: center;
+}
+.Services ,.join,.felis,.contact{
+    background-color: rgb(240, 240, 240);
+}
+.felis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(60, 60, 60);
+    
+}
+.felis div{
+    padding: 110px;
+   text-align: center;
+   line-height: 2;
+}
+.footer{
+    height: 200px;
+    background-color: #414a4f;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: lightgray;
+    justify-content: center;
+    line-height: 1;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    
+}
+img{
+    padding: 20px;
+    height: 350px;
+}
+.imagess{
+    padding: 100px 50px;
+}
